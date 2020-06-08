@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/icon_my_self"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Inputting_words"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/input_et_words"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/p_Inputting_words" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/icon_my_self"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/Inputting_translate"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/input_et_translate"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/p_Inputting_translation" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/input_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/icon_button"
+        android:text="@string/input_button"
+        android:textSize="15sp" />
+
+</LinearLayout>

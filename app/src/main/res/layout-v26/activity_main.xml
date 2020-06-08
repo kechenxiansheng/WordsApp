@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/hand"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/icon_fragment_bg"
+        android:gravity="center"
+        android:text="@string/title_description"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/main_et_username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/icon_my_self"
+        android:autofillHints=""
+        android:gravity="center"
+        android:hint="@string/text_description"
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:targetApi="o"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/icon_button"
+        android:gravity="center"
+        android:text="@string/button_login"
+        android:textSize="14sp" />
+</LinearLayout>

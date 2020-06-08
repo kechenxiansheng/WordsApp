@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">掌心单词簿</string>
+    <string name="text_description">比如：天下最帅lei豆是我</string>
+    <string name="title_description">取个名字哇</string>
+    <string name="button_login">保存</string>
+    <string-array name="explain_array">
+        <item>掌握了知识，便掌握力量！</item>
+        <item>1.首页输入的名称会在登录后显示在右上方。</item>
+        <item>2.在主界面，点击“录入”、“背诵”、“在线查询”、“个人中心”会显示不同的面板。</item>
+        <item>3.在“录入”界面点击“录入”按钮会把单词保存到单词库中。</item>
+        <item>4.录入时，如果单词以ion、ment等标志性名词结尾，保存时翻译前面会自动补充“n. ”。翻译以“的”等结尾，保存后翻译前自动补充“adj. ”，以“地”结尾，自动补充“adv. ”。</item>
+        <item>5.在“背诵”界面点击“晓得老”会删除该单词，点击“提示”会显示翻译，点击“下一个”会显示下个单词。</item>
+        <item>6.在“在线查询”界面，可以在线查询英文汉语对应翻译。目前只支持英语汉语互译。</item>
+        <item>7.在“个人中心”界面，为了更方便查看单词，点击单词库，显示库中所有单词。</item>
+    </string-array>
+
+    <string name="start_study">每天进步一丢丢儿</string>
+    <string name="start_study2">脑壳不得打浑浑儿</string>
+
+    <string name="wel_time">星期六</string>
+    <string name="wel_description">崽崽</string>
+    <string name="hello_description">，加油哦！</string>
+
+    <string name="write_description">录入</string>
+    <string name="recite_description">背诵</string>
+    <string name="online_translation">在线查询</string>
+    <string name="yourself_description">个人中心</string>
+
+    <string name="Inputting_words">输入单词：</string>
+    <string name="p_Inputting_words">handsome</string>
+    <string name="Inputting_translate">输入翻译：</string>
+    <string name="p_Inputting_translation">英俊，帅气</string>
+    <string name="input_button">保存</string>
+
+    <string name="current_name">原名称：</string>
+    <string name="new_name">新名称：</string>
+    <string name="default_new_name">想改啥名呢?</string>
+
+    <string name="show_words">这里显示单词</string>
+    <string name="show_translate">点击提示显示翻译</string>
+
+    <string name="l_know">晓得老</string>
+    <string name="dont_know">提示</string>
+    <string name="next_words">下一个</string>
+
+    <string name="word_library">单词库</string>
+    <string name="software_specifications">软件说明</string>
+    <string name="version">版本更新说明</string>
+    <string name="tel_description">提建议-直呼我</string>
+    <string name="update">更改名称</string>
+    <string name="save_button">保存</string>
+
+    <string name="baidu_appId">百度翻译分配的appid，需要自己申请哦</string>
+    <string name="baidu_privateKey">百度翻译分配的privateKey，需要自己申请哦</string>
+
+
+    <string name="online_words_description">查询的内容</string>
+    <string name="online_query1">英-汉</string>
+    <string name="online_query2">汉-英</string>
+    <string name="translation_des">小提示：多个内容查询可用回车换行区分开</string>
+
+    <string-array name="app_version">
+        <item>当前版本：v1.0.9</item>
+        <item>历史版本更新说明：</item>
+        <item>1、v1.0.0：掌握力量app精简发布 - 掌握知识就是掌握力量</item>
+        <item>2、v1.0.1：记住名称，再也不用进入时费时输入了</item>
+        <item>3、v1.0.2：变更为方言版啦</item>
+        <item>4、v1.0.3：添加退出确认框，再也不会手误了</item>
+        <item>5、v1.0.4：修改说明页的布局</item>
+        <item>6、v1.0.5：增加在线翻译（英汉互译），助力学习</item>
+        <item>7、v1.0.6：布局大量优化，让界面更巴适</item>
+        <item>8、v1.0.7：在线翻译内容可以copy了，方便你我他</item>
+        <item>9、v1.0.8：初始名字不满意？现在可以修改啦</item>
+        <item>10、v1.0.9：背诵界面更改为单词与翻译随机显示，当显示翻译时可以拼写单词以加强记忆，拼写完成点击提示进行比对</item>
+    </string-array>
+
+    <string name="words_num">单词库</string>
+
+</resources>

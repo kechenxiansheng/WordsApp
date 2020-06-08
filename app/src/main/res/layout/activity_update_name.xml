@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/hand"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/icon_my_self"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/current_name"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/current_name"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@drawable/icon_my_self"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_name"
+            android:gravity="center"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/new_name"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@null"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:text=""
+            android:hint="@string/default_new_name"
+            android:inputType=""
+            android:autofillHints=""
+            tools:targetApi="o" />
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/icon_button"
+        android:text="@string/save_button"
+        android:textSize="15sp"
+        android:id="@+id/save_button"/>
+</LinearLayout>

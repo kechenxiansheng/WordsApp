@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:layout_weight="2"
+android:layout_weight="1"
+1、当两个子布局分别设置为2,1时，表明在父布局中的占据比例分别是2/3,1/3。  weight 权重
+2、设置了权重，那么其所在的view的 layout_width 设置为0dp即可
+
+android:background="@null"  隐藏EditText的下划线
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/online_input_words"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="3"
+            android:background="@drawable/icon_my_self"
+            android:hint="@string/online_words_description"
+            android:inputType=""
+            android:focusable="true"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:maxLines="3"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/online_query_btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_my_touxiang"
+            android:text="@string/online_query1"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/online_query_btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_my_touxiang"
+            android:text="@string/online_query2"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_my_self"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/online_translate_result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="3"
+            android:autofillHints=""
+            android:background="@null"
+            android:hint="@string/translation_des"
+            android:inputType=""
+            android:maxLines="15"
+            android:textSize="16sp"
+            tools:targetApi="o" />
+    </LinearLayout>
+</LinearLayout>

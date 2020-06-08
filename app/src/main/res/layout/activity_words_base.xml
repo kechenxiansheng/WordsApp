@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_fragment_bg"
+    >
+
+    <TextView
+        android:id="@+id/wordsNum"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/icon_fragment_bg"
+        android:gravity="center"
+        android:text="@string/words_num"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list">
+    </ListView>
+</LinearLayout>

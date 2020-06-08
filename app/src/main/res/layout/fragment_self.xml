@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:gravity="center">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/word_library"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/icon_my_self"
+        android:id="@+id/self_tv_words"
+        />
+    <TextView
+
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/update"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/icon_my_self"
+        android:id="@+id/self_tv_update"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/software_specifications"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/icon_my_self"
+        android:id="@+id/self_tv_explain"
+        />
+    <TextView
+
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/version"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/icon_my_self"
+        android:id="@+id/self_tv_version"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/tel_description"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/icon_my_self"
+        android:id="@+id/take_phone"
+        />
+</LinearLayout>
